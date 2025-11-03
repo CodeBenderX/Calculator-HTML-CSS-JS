@@ -18,3 +18,16 @@
   color: #fff;
 }
 
+.other__keys{
+  background-color: #e0e0e0;
+  color: #000;
+  display: grid;
+  grid-template-columns: repeat(2, 3fr, 1fr);
+  gap: 10px;
+}
+.numbers{
+  background-color: #d4d4d2;
+  color: #000;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
