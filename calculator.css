@@ -1,0 +1,20 @@
+.calculator {
+  width: 300px;
+  margin: 0 auto;
+  border: 2px solid #000;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.calculator__keys{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.key__operator {
+  background-color: #ff9500;
+  color: #fff;
+}
+
